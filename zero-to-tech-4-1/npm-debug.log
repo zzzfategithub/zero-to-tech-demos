@@ -1,0 +1,103 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\Tims-Client\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\Tims-Client\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-D',
+1 verbose cli   'vite' ]
+2 info using npm@3.3.12
+3 info using node@v5.2.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData vite
+8 silly fetchNamedPackageData vite
+9 silly mapToRegistry name vite
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/vite
+13 verbose request uri https://registry.npmjs.org/vite
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 16:55:30
+16 verbose request id 338f8ddfa6cad76a
+17 http request GET https://registry.npmjs.org/vite
+18 http 200 https://registry.npmjs.org/vite
+19 verbose headers { date: 'Fri, 14 Aug 2026 08:55:30 GMT',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'transfer-encoding': 'chunked',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'set-cookie':
+19 verbose headers    [ '__cf_bm=fzYirSrip97z3u_XLXUfwR3jM5fXejIwwluruwKpwYg-1786697730.5390718-1.0.1.1-Dyy0faxqGa3RhizJEytsKwvYyqg4jWd2R0vVUlGy0hYsn.LULP2fgscHb6cqW5OJbm5aoAReV72LpY46tAfi0MW0dgx3dn2tFgOWqOGjKHmYnISXUgWTtV0sIPGuwg7m; HttpOnly; SameSite=None; Secure; Path=/; Domain=npmjs.org; Expires=Fri, 14 Aug 2026 09:25:30 GMT',
+19 verbose headers      '_cfuvid=HsnuK_1n9Kj9aKZAUhhyZUednpNA9IgtiXvgwQSTi8M-1786697730.5390718-1.0.1.1-.DaMWrXLSwtzwpBHnSE15QqhXPEdO_Fah644tBI1QDc; HttpOnly; SameSite=None; Secure; Path=/; Domain=npmjs.org' ],
+19 verbose headers   'cf-ray': 'a2aebdafddaef7e5-LAX',
+19 verbose headers   'cf-cache-status': 'HIT',
+19 verbose headers   'access-control-allow-origin': '*',
+19 verbose headers   age: '37',
+19 verbose headers   'cache-control': 'public, max-age=300',
+19 verbose headers   vary: 'accept-encoding, accept',
+19 verbose headers   'last-modified': 'Thu, 06 Aug 2026 13:47:56 GMT',
+19 verbose headers   server: 'cloudflare',
+19 verbose headers   etag: 'W/"958f1364d464d7c5b4202cbf5aff9bb8"',
+19 verbose headers   'content-encoding': 'gzip' }
+20 silly get cb [ 200,
+20 silly get   { date: 'Fri, 14 Aug 2026 08:55:30 GMT',
+20 silly get     'content-type': 'application/json',
+20 silly get     'transfer-encoding': 'chunked',
+20 silly get     connection: 'keep-alive',
+20 silly get     'set-cookie':
+20 silly get      [ '__cf_bm=fzYirSrip97z3u_XLXUfwR3jM5fXejIwwluruwKpwYg-1786697730.5390718-1.0.1.1-Dyy0faxqGa3RhizJEytsKwvYyqg4jWd2R0vVUlGy0hYsn.LULP2fgscHb6cqW5OJbm5aoAReV72LpY46tAfi0MW0dgx3dn2tFgOWqOGjKHmYnISXUgWTtV0sIPGuwg7m; HttpOnly; SameSite=None; Secure; Path=/; Domain=npmjs.org; Expires=Fri, 14 Aug 2026 09:25:30 GMT',
+20 silly get        '_cfuvid=HsnuK_1n9Kj9aKZAUhhyZUednpNA9IgtiXvgwQSTi8M-1786697730.5390718-1.0.1.1-.DaMWrXLSwtzwpBHnSE15QqhXPEdO_Fah644tBI1QDc; HttpOnly; SameSite=None; Secure; Path=/; Domain=npmjs.org' ],
+20 silly get     'cf-ray': 'a2aebdafddaef7e5-LAX',
+20 silly get     'cf-cache-status': 'HIT',
+20 silly get     'access-control-allow-origin': '*',
+20 silly get     age: '37',
+20 silly get     'cache-control': 'public, max-age=300',
+20 silly get     vary: 'accept-encoding, accept',
+20 silly get     'last-modified': 'Thu, 06 Aug 2026 13:47:56 GMT',
+20 silly get     server: 'cloudflare',
+20 silly get     etag: 'W/"958f1364d464d7c5b4202cbf5aff9bb8"',
+20 silly get     'content-encoding': 'gzip' } ]
+21 verbose get saving vite to C:\Users\左建波\AppData\Roaming\npm-cache\registry.npmjs.org\vite\.cache.json
+22 silly install normalizeTree
+23 silly loadCurrentTree Finishing
+24 silly loadIdealTree Starting
+25 silly install loadIdealTree
+26 silly cloneCurrentTree Starting
+27 silly install cloneCurrentTreeToIdealTree
+28 silly cloneCurrentTree Finishing
+29 silly loadShrinkwrap Starting
+30 silly install loadShrinkwrap
+31 silly loadShrinkwrap Finishing
+32 silly loadAllDepsIntoIdealTree Starting
+33 silly install loadAllDepsIntoIdealTree
+34 warn engine vite@8.2.1: wanted: {"node":"^20.19.0 || >=22.12.0"} (current: {"node":"5.2.0","npm":"3.3.12"})
+35 verbose stack Error: Missing required argument #1
+35 verbose stack     at andLogAndFinish (C:\Program Files (x86)\Tims-Client\nodejs\node_modules\npm\lib\fetch-package-metadata.js:31:3)
+35 verbose stack     at fetchPackageMetadata (C:\Program Files (x86)\Tims-Client\nodejs\node_modules\npm\lib\fetch-package-metadata.js:51:22)
+35 verbose stack     at resolveWithNewModule (C:\Program Files (x86)\Tims-Client\nodejs\node_modules\npm\lib\install\deps.js:445:12)
+35 verbose stack     at C:\Program Files (x86)\Tims-Client\nodejs\node_modules\npm\lib\install\deps.js:191:5
+35 verbose stack     at C:\Program Files (x86)\Tims-Client\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+35 verbose stack     at Array.forEach (native)
+35 verbose stack     at C:\Program Files (x86)\Tims-Client\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+35 verbose stack     at Array.forEach (native)
+35 verbose stack     at asyncMap (C:\Program Files (x86)\Tims-Client\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+35 verbose stack     at exports.loadRequestedDeps (C:\Program Files (x86)\Tims-Client\nodejs\node_modules\npm\lib\install\deps.js:189:3)
+36 verbose cwd E:\git learn\前端\zero-to-tech-demos\zero-to-tech-4-1
+37 error Windows_NT 10.0.22000
+38 error argv "C:\\Program Files (x86)\\Tims-Client\\nodejs\\node.exe" "C:\\Program Files (x86)\\Tims-Client\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-D" "vite"
+39 error node v5.2.0
+40 error npm  v3.3.12
+41 error code EMISSINGARG
+42 error typeerror Error: Missing required argument #1
+42 error typeerror     at andLogAndFinish (C:\Program Files (x86)\Tims-Client\nodejs\node_modules\npm\lib\fetch-package-metadata.js:31:3)
+42 error typeerror     at fetchPackageMetadata (C:\Program Files (x86)\Tims-Client\nodejs\node_modules\npm\lib\fetch-package-metadata.js:51:22)
+42 error typeerror     at resolveWithNewModule (C:\Program Files (x86)\Tims-Client\nodejs\node_modules\npm\lib\install\deps.js:445:12)
+42 error typeerror     at C:\Program Files (x86)\Tims-Client\nodejs\node_modules\npm\lib\install\deps.js:191:5
+42 error typeerror     at C:\Program Files (x86)\Tims-Client\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+42 error typeerror     at Array.forEach (native)
+42 error typeerror     at C:\Program Files (x86)\Tims-Client\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+42 error typeerror     at Array.forEach (native)
+42 error typeerror     at asyncMap (C:\Program Files (x86)\Tims-Client\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+42 error typeerror     at exports.loadRequestedDeps (C:\Program Files (x86)\Tims-Client\nodejs\node_modules\npm\lib\install\deps.js:189:3)
+42 error typeerror This is an error with npm itself. Please report this error at:
+42 error typeerror     <http://github.com/npm/npm/issues>
+43 verbose exit [ 1, true ]
